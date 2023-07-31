@@ -4,18 +4,24 @@ import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
     plugins: [
-        laravel({
-            input: 'resources/js/app.js',
-            ssr: 'resources/js/ssr.js',
-            refresh: true,
-        }),
+        // laravel({
+        //     input: 'resources/js/app.js',
+        //     ssr: 'resources/js/ssr.js',
+        //     refresh: true,
+        // }),
         vue({
-            template: {
-                transformAssetUrls: {
-                    base: null,
-                    includeAbsolute: false,
-                },
-            },
+            // template: {
+            //     transformAssetUrls: {
+            //         base: null,
+            //         includeAbsolute: false,
+            //     },
+            // },
         }),
     ],
+    build: {
+        // rollupOptions: {
+        //     input: 'src/admin.js', // Ваша точка входу для адмінки
+        // },
+        outDir: 'Themes/July2023',
+    }
 });
