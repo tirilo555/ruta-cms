@@ -9,8 +9,14 @@
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.2",
+<<<<<<< HEAD
         "laravel/tinker": "^2.8",
         "nwidart/laravel-modules": "^10.0"
+=======
+        "laravel/tinker": "^2.7",
+        "nwidart/laravel-modules": "v9.*",
+        "tightenco/ziggy": "^1.0"
+>>>>>>> d896113 (Created modules and themes. rendering views from theme. ssr)
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -25,7 +31,8 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "Modules\\": "Modules/"
         }
     },
     "autoload-dev": {

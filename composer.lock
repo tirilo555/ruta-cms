@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "8ef8526bd4848dd977e7e2c514561694",
+=======
+    "content-hash": "857c97c5df891ce02bfbc91e660b6134",
+>>>>>>> d896113 (Created modules and themes. rendering views from theme. ssr)
     "packages": [
         {
             "name": "brick/math",
@@ -2256,6 +2260,7 @@
         },
         {
             "name": "nwidart/laravel-modules",
+<<<<<<< HEAD
             "version": "v10.0.0",
             "source": {
                 "type": "git",
@@ -2266,10 +2271,23 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nWidart/laravel-modules/zipball/35e514f13cb8ae8dce093e9794785fea27319d81",
                 "reference": "35e514f13cb8ae8dce093e9794785fea27319d81",
+=======
+            "version": "v9.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nWidart/laravel-modules.git",
+                "reference": "a31b003b9e1dd100d2bcf7da7e036a758d33986d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nWidart/laravel-modules/zipball/a31b003b9e1dd100d2bcf7da7e036a758d33986d",
+                "reference": "a31b003b9e1dd100d2bcf7da7e036a758d33986d",
+>>>>>>> d896113 (Created modules and themes. rendering views from theme. ssr)
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
+<<<<<<< HEAD
                 "php": ">=8.1"
             },
             "require-dev": {
@@ -2280,6 +2298,18 @@
                 "phpstan/phpstan": "^1.4",
                 "phpunit/phpunit": "^10.0",
                 "spatie/phpunit-snapshot-assertions": "^5.0"
+=======
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.6",
+                "laravel/framework": "^9.21",
+                "mockery/mockery": "^1.4",
+                "orchestra/testbench": "^7.0",
+                "phpstan/phpstan": "^1.4",
+                "phpunit/phpunit": "^9.5",
+                "spatie/phpunit-snapshot-assertions": "^4.2"
+>>>>>>> d896113 (Created modules and themes. rendering views from theme. ssr)
             },
             "type": "library",
             "extra": {
@@ -2292,7 +2322,11 @@
                     }
                 },
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "10.0-dev"
+=======
+                    "dev-master": "9.0-dev"
+>>>>>>> d896113 (Created modules and themes. rendering views from theme. ssr)
                 }
             },
             "autoload": {
@@ -2325,7 +2359,11 @@
             ],
             "support": {
                 "issues": "https://github.com/nWidart/laravel-modules/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/nWidart/laravel-modules/tree/v10.0.0"
+=======
+                "source": "https://github.com/nWidart/laravel-modules/tree/v9.0.6"
+>>>>>>> d896113 (Created modules and themes. rendering views from theme. ssr)
             },
             "funding": [
                 {
@@ -2333,7 +2371,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2023-02-16T11:08:15+00:00"
+=======
+            "time": "2022-10-28T11:50:28+00:00"
+>>>>>>> d896113 (Created modules and themes. rendering views from theme. ssr)
         },
         {
             "name": "phpoption/phpoption",
