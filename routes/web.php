@@ -1,9 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-=======
-use Illuminate\Foundation\Application;
->>>>>>> d896113 (Created modules and themes. rendering views from theme. ssr)
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,12 +16,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
->>>>>>> d896113 (Created modules and themes. rendering views from theme. ssr)

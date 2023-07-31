@@ -84,17 +84,10 @@ class $CLASS$ extends ServiceProvider
 
         if (is_dir($langPath)) {
             $this->loadTranslationsFrom($langPath, $this->moduleNameLower);
-<<<<<<< HEAD
-            $this->loadJsonTranslationsFrom($langPath);
-        } else {
-            $this->loadTranslationsFrom(module_path($this->moduleName, '$PATH_LANG$'), $this->moduleNameLower);
-            $this->loadJsonTranslationsFrom(module_path($this->moduleName, '$PATH_LANG$'));
-=======
             $this->loadJsonTranslationsFrom($langPath, $this->moduleNameLower);
         } else {
             $this->loadTranslationsFrom(module_path($this->moduleName, '$PATH_LANG$'), $this->moduleNameLower);
             $this->loadJsonTranslationsFrom(module_path($this->moduleName, '$PATH_LANG$'), $this->moduleNameLower);
->>>>>>> d896113 (Created modules and themes. rendering views from theme. ssr)
         }
     }
 
